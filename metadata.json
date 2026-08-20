@@ -1,0 +1,8 @@
+{
+  "name": "Remix SmartBook.Id – SMART AUDIT SYSTEM",
+  "description": "Platform Pembelajaran Audit Mutu Internal ISO 9001:2015 Terintegrasi (9 Modul, Audiobook, 7 Worksheet, AI Tools, Pre/Post-Test) oleh Dede Hery Suryana, AT",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
