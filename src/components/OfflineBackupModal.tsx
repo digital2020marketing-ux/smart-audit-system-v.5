@@ -48,12 +48,11 @@ https://chatgpt.com/g/g-6955fcd4ee0481918fbcce983e93f41c-ai-asisten-ami
 https://chatgpt.com/g/g-69e7746d65a881919c84f57152956d22-daftar-periksa-dan-simulasi-audit
 
 3. Menulis Temuan Audit - Metoda PLOR:
-https://plor-generate-ptkp.vercel.app/
+https://aistudio.google.com/apps/8176939f-fb28-49da-a6e0-5d2fb150e45f?fullscreenApplet=true&showAssistant=true&showPreview=true
 (Catatan: Disarankan via Laptop/PC)
 
 4. Menulis Tindakan Perbaikan - CAPA:
-https://tindakan-perbaikan-ptkp-ami-plor.vercel.app/
-Access Key: inayah
+https://aistudio.google.com/apps/ab6c7ca2-9bf9-439b-995a-36057740cb2c?showAssistant=true&showPreview=true&fullscreenApplet=true
 (Catatan: Disarankan via Laptop/PC)
 
 5. Pre-test Pengetahuan AMI (Evaluasi Awal):
@@ -147,11 +146,6 @@ https://smartbook.id/post-test_pengetahuan_AMI/
                         <span className="text-[9px] font-bold text-amber-800 bg-amber-100/80 px-1.5 py-0.2 rounded">
                           {idx + 1}. {item.category}
                         </span>
-                        {item.accessKey && (
-                          <span className="text-[9px] font-mono font-bold text-blue-700 bg-blue-50 px-1 py-0.2 rounded border border-blue-200">
-                            Key: {item.accessKey}
-                          </span>
-                        )}
                       </div>
                       <h5 className="text-xs font-bold text-slate-900 mt-0.5 leading-snug">
                         {item.name}

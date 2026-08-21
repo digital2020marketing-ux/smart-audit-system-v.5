@@ -32,7 +32,7 @@ export const AI_TOOLS_DATA: AIToolItem[] = [
       "Merumuskan Objective Evidence (Fakta & bukti fisik yang tidak terbantahkan)",
       "Memetakan Reference (Klausul ISO 9001:2015 / Dokumen SOP terkait)"
     ],
-    url: "https://plor-generate-ptkp.vercel.app/",
+    url: "https://aistudio.google.com/apps/8176939f-fb28-49da-a6e0-5d2fb150e45f?fullscreenApplet=true&showAssistant=true&showPreview=true",
     requiresDesktop: true
   },
   {
@@ -48,8 +48,7 @@ export const AI_TOOLS_DATA: AIToolItem[] = [
       "Investigasi akar masalah (Root Cause Analysis)",
       "Penyusunan rencana tindakan perbaikan jangka panjang (Corrective Action)"
     ],
-    url: "https://tindakan-perbaikan-ptkp-ami-plor.vercel.app/",
-    accessKey: "inayah",
+    url: "https://aistudio.google.com/apps/ab6c7ca2-9bf9-439b-995a-36057740cb2c?showAssistant=true&showPreview=true&fullscreenApplet=true",
     requiresDesktop: true
   },
   {
@@ -96,17 +95,16 @@ export const OFFLINE_COPY_LINKS: CopyLinkItem[] = [
   {
     id: "plor-link",
     name: "Salin Link PLOR",
-    url: "https://plor-generate-ptkp.vercel.app/",
+    url: "https://aistudio.google.com/apps/8176939f-fb28-49da-a6e0-5d2fb150e45f?fullscreenApplet=true&showAssistant=true&showPreview=true",
     category: "AI Generate",
     note: "Rekomendasi gunakan Laptop/PC"
   },
   {
     id: "capa-link",
     name: "Salin Link CAPA",
-    url: "https://tindakan-perbaikan-ptkp-ami-plor.vercel.app/",
+    url: "https://aistudio.google.com/apps/ab6c7ca2-9bf9-439b-995a-36057740cb2c?showAssistant=true&showPreview=true&fullscreenApplet=true",
     category: "AI Generate",
-    note: "Membutuhkan Access Key",
-    accessKey: "inayah"
+    note: "Rekomendasi gunakan Laptop/PC"
   },
   {
     id: "pretest-link",

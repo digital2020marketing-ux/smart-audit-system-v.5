@@ -1,41 +1,22 @@
 import React, { useState } from 'react';
 import { AI_TOOLS_DATA } from '../data/aiToolsData';
 import { 
-  Bot, 
-  Sparkles, 
   ExternalLink, 
   Copy, 
   Check, 
-  Laptop, 
-  KeyRound, 
-  FileSignature, 
-  Wand2, 
-  HelpCircle,
-  FileCheck2,
-  ChevronRight,
-  Target,
-  MessageSquare,
-  BookOpen
+  Laptop,
+  Monitor
 } from 'lucide-react';
 import { copyToClipboard } from '../utils/clipboardHelper';
 
 export const AIToolsView: React.FC = () => {
   const [copiedId, setCopiedId] = useState<string | null>(null);
-  const [copiedKey, setCopiedKey] = useState(false);
 
   const copyUrl = async (url: string, id: string) => {
     const success = await copyToClipboard(url);
     if (success) {
       setCopiedId(id);
       setTimeout(() => setCopiedId(null), 2500);
-    }
-  };
-
-  const copyAccessKey = async (key: string) => {
-    const success = await copyToClipboard(key);
-    if (success) {
-      setCopiedKey(true);
-      setTimeout(() => setCopiedKey(false), 2500);
     }
   };
 
@@ -76,17 +57,6 @@ export const AIToolsView: React.FC = () => {
                 Metoda <strong>PLOR</strong> dan <strong>CAPA Generator</strong> sebaiknya digunakan melalui <strong>laptop/PC</strong> karena layout form dan tabel analisis pada smartphone kurang maksimal.
               </p>
             </div>
-          </div>
-
-          <div className="shrink-0 bg-white border border-amber-300 px-2.5 py-1 rounded-lg text-xs font-mono text-slate-800 flex items-center space-x-2">
-            <span>Key CAPA: <strong>inayah</strong></span>
-            <button
-              onClick={() => copyAccessKey('inayah')}
-              className="text-amber-700 hover:text-amber-800 font-bold"
-              title="Salin Key"
-            >
-              {copiedKey ? <Check className="w-3.5 h-3.5 text-emerald-600" /> : <Copy className="w-3.5 h-3.5" />}
-            </button>
           </div>
         </div>
       </div>
@@ -129,20 +99,13 @@ export const AIToolsView: React.FC = () => {
                 ))}
               </div>
 
-              {/* Special Access Key Note if present */}
-              {tool.accessKey && (
-                <div className="p-2 bg-blue-50 border border-blue-200 rounded-lg flex items-center justify-between text-xs text-blue-900">
-                  <div className="flex items-center space-x-1.5 text-[11px]">
-                    <KeyRound className="w-3.5 h-3.5 text-blue-600" />
-                    <span>Access Key Wajib: <strong>{tool.accessKey}</strong></span>
-                  </div>
-                  <button
-                    onClick={() => copyAccessKey(tool.accessKey!)}
-                    className="bg-blue-600 hover:bg-blue-700 text-white px-2 py-0.5 rounded text-[10px] font-bold transition flex items-center space-x-1"
-                  >
-                    {copiedKey ? <Check className="w-3 h-3" /> : <Copy className="w-3 h-3" />}
-                    <span>{copiedKey ? 'Disalin' : 'Salin Key'}</span>
-                  </button>
+              {/* PC / Laptop Notice Box (Hanya untuk tools yang memerlukan layar lebar seperti PLOR & CAPA) */}
+              {tool.requiresDesktop && (
+                <div className="p-2.5 bg-blue-50/90 border border-blue-200 rounded-lg flex items-center space-x-2 text-[11px] text-blue-950 mt-2">
+                  <Monitor className="w-3.5 h-3.5 text-blue-600 shrink-0" />
+                  <span>
+                    <strong>Rekomendasi:</strong> Sebaiknya dibuka menggunakan <strong>PC atau Laptop</strong>.
+                  </span>
                 </div>
               )}
             </div>

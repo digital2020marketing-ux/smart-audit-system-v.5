@@ -133,13 +133,13 @@ export const PRODUCT_GUIDES: ProductGuide[] = [
     badge: "5-Why & RCA",
     summary: "Metodologi analisis akar penyebab dan formulasi tindakan korektif pencegahan ketidaksesuaian berulang.",
     steps: [
-      "Buka CAPA Generator dan masukkan Access Key: 'inayah'.",
+      "Buka CAPA Generator melalui menu AI Tools atau link yang tersedia.",
       "Input temuan PLOR yang telah dibuat sebelumnya ke dalam sistem.",
       "Lakukan Analisis Akar Masalah (Root Cause Analysis) dengan metode 5-Why: gali penyebab hingga ke faktor sistemik, bukan sekadar kelalaian individu.",
       "Rumuskan dua lapisan tindakan: Koreksi Langsung (penyelesaian jangka pendek) dan Tindakan Korektif CAPA (perbaikan SOP/Sistem jangka panjang)."
     ],
     tips: [
-      "Access Key CAPA: 'inayah' (huruf kecil semua).",
+      "Matriks analisis CAPA dirancang terintegrasi dengan Klausul 10.2 ISO 9001:2015.",
       "Sebaiknya gunakan perangkat Laptop atau PC saat menyusun matriks CAPA."
     ]
   }
