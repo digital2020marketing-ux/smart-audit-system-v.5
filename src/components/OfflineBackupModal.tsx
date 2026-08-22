@@ -41,23 +41,26 @@ export const OfflineBackupModal: React.FC<OfflineBackupModalProps> = ({
 Platform Pembelajaran Audit Mutu Internal ISO 9001:2015
 Dikembangkan oleh: Dede Hery Suryana, AT
 
-1. AI Asisten AMI-GPT (24/7):
+1. AI Asisten AMI-GPT (Versi 2026):
 https://chatgpt.com/g/g-6955fcd4ee0481918fbcce983e93f41c-ai-asisten-ami
 
-2. GPT Ceklist & Simulasi Audit:
+2. ISO 19011 Audit Asisten AI (Versi 2026):
+https://chatgpt.com/g/g-68ad79e7c7188191b74ccd8782faa2a6-iso-19011-audit-assistant
+
+3. GPT Ceklist & Simulasi Audit:
 https://chatgpt.com/g/g-69e7746d65a881919c84f57152956d22-daftar-periksa-dan-simulasi-audit
 
-3. Menulis Temuan Audit - Metoda PLOR:
+4. Menulis Temuan Audit - Metoda PLOR:
 https://chatgpt.com/g/g-69834ccf134c819189ab8e0860a404b8-generator-temuan-audit-metoda-plor
 
-4. Menulis Tindakan Perbaikan - CAPA:
+5. Menulis Tindakan Perbaikan - CAPA:
 https://aistudio.google.com/apps/ab6c7ca2-9bf9-439b-995a-36057740cb2c?showAssistant=true&showPreview=true&fullscreenApplet=true
 (Catatan: Disarankan via Laptop/PC)
 
-5. Pre-test Pengetahuan AMI (Evaluasi Awal):
+6. Pre-test Pengetahuan AMI (Evaluasi Awal):
 https://smartbook.id/pre-test_pengetahuan_AMI/
 
-6. Post-test Pengetahuan AMI (Sertifikasi Mandiri):
+7. Post-test Pengetahuan AMI (Sertifikasi Mandiri):
 https://smartbook.id/post-test_pengetahuan_AMI/
 `;
     const success = await copyToClipboard(formatted);
@@ -82,7 +85,7 @@ https://smartbook.id/post-test_pengetahuan_AMI/
                 Simpan Konten Offline
               </span>
               <h3 className="text-sm font-bold text-white leading-tight">
-                6 Link Penting SMART AUDIT SYSTEM
+                7 Link Penting SMART AUDIT SYSTEM
               </h3>
             </div>
           </div>
@@ -111,17 +114,17 @@ https://smartbook.id/post-test_pengetahuan_AMI/
               <li>Unduh seluruh 9 Ebook PDF</li>
               <li>Unduh seluruh 9 Audio MP3</li>
               <li>Simpan link AI Asisten AMI</li>
+              <li>Simpan link AI ISO 19011</li>
               <li>Simpan link AI PLOR &amp; CAPA</li>
-              <li>Simpan link Pre-test</li>
-              <li>Simpan link Post-test</li>
+              <li>Simpan link Pre &amp; Post-test</li>
             </ul>
           </div>
 
-          {/* 6 Quick Copy Buttons List */}
+          {/* Quick Copy Buttons List */}
           <div className="space-y-2">
             <div className="flex items-center justify-between">
               <h4 className="text-[11px] font-bold uppercase tracking-wider text-slate-500">
-                Daftar 6 Link Akses Cepat:
+                Daftar 7 Link Akses Cepat:
               </h4>
               <button
                 onClick={handleCopyAll}

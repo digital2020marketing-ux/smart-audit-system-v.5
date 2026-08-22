@@ -31,14 +31,14 @@ export const AIToolsView: React.FC = () => {
                 AI Powered Audit Tools
               </span>
               <span className="text-[11px] text-slate-500 font-mono font-bold">
-                4 AI Tools &amp; Asisten
+                5 AI Tools, Generator &amp; Panduan
               </span>
             </div>
             <h1 className="text-lg sm:text-xl font-extrabold text-slate-900 mt-1">
-              AI Generator &amp; Asisten Audit Mutu Internal
+              AI Generator, Panduan &amp; Asisten Audit Mutu Internal
             </h1>
             <p className="text-xs text-slate-600 mt-0.5 max-w-2xl leading-relaxed">
-              Manfaatkan teknologi kecerdasan buatan terdedikasi untuk mempercepat pembuatan checklist, simulasi tanya jawab, penulisan temuan PLOR, dan formulasi tindakan perbaikan CAPA.
+              Manfaatkan teknologi kecerdasan buatan terdedikasi untuk konsultasi pedoman ISO 19011, pembuatan checklist, simulasi tanya jawab, penulisan temuan PLOR, dan formulasi tindakan perbaikan CAPA.
             </p>
           </div>
         </div>
@@ -54,7 +54,7 @@ export const AIToolsView: React.FC = () => {
                 Pemberitahuan Khusus Perangkat (Laptop/PC Disarankan):
               </h4>
               <p className="text-[11px] text-amber-800 mt-0.5">
-                Metoda <strong>PLOR</strong> dan <strong>CAPA Generator</strong> sebaiknya digunakan melalui <strong>laptop/PC</strong> karena layout form dan tabel analisis pada smartphone kurang maksimal.
+                <strong>CAPA Generator</strong> sebaiknya digunakan melalui <strong>laptop/PC</strong> karena layout form dan tabel analisis pada smartphone kurang maksimal.
               </p>
             </div>
           </div>

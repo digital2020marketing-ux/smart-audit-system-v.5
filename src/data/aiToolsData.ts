@@ -53,17 +53,33 @@ export const AI_TOOLS_DATA: AIToolItem[] = [
   },
   {
     id: "ami-gpt",
-    name: "AI Asisten AMI-GPT",
+    name: "AI Asisten AMI-GPT (Versi 2026)",
     platform: "External GPT",
-    badge: "AI Asisten 24/7",
+    badge: "AI Asisten Mutakhir 2026",
     iconColor: "indigo",
-    description: "Asisten kecerdasan buatan spesialis Audit Mutu Internal ISO 9001:2015 yang siap mendampingi proses konsultasi, tanya jawab teori, dan studi kasus kapan saja.",
+    description: "Asisten kecerdasan buatan spesialis Audit Mutu Internal ISO 9001:2015 & ISO 19011:2026 yang siap mendampingi proses konsultasi, tanya jawab teori, dan studi kasus kapan saja 24/7.",
     functions: [
-      "Tanya jawab cerdas seputar standar ISO 9001:2015 dan ISO 19011:2018",
-      "Konsultasi studi kasus audit, dilema temuan, dan kriteria sampling",
+      "Tanya jawab cerdas seputar standar ISO 9001:2015 dan ISO 19011:2026",
+      "Konsultasi studi kasus audit, dilema temuan, dan kriteria sampling berbasis risiko",
       "Pendampingan belajar modul dan persiapan sertifikasi mandiri 24/7"
     ],
     url: "https://chatgpt.com/g/g-6955fcd4ee0481918fbcce983e93f41c-ai-asisten-ami",
+    requiresDesktop: false
+  },
+  {
+    id: "iso-19011-assistant",
+    name: "ISO 19011 Audit Asisten AI (Versi 2026)",
+    platform: "External GPT",
+    badge: "AI Panduan ISO 19011",
+    iconColor: "teal",
+    description: "AI Panduan spesialis pedoman audit sistem manajemen ISO 19011:2026. Membantu perancangan program audit, penerapan 7 prinsip audit, teknik sampling berbasis risiko, dan metode audit modern.",
+    functions: [
+      "Panduan penerapan 7 Prinsip Audit Sistem Manajemen ISO 19011",
+      "Perancangan & pengelolaan Program Audit Internal berbasis risiko",
+      "Metodologi sampling audit & pelaksanaan remote / hybrid audit",
+      "Evaluasi kompetensi auditor internal & etika investigasi profesional"
+    ],
+    url: "https://chatgpt.com/g/g-68ad79e7c7188191b74ccd8782faa2a6-iso-19011-audit-assistant",
     requiresDesktop: false
   }
 ];
@@ -84,6 +100,13 @@ export const OFFLINE_COPY_LINKS: CopyLinkItem[] = [
     url: "https://chatgpt.com/g/g-6955fcd4ee0481918fbcce983e93f41c-ai-asisten-ami",
     category: "AI Asisten",
     note: "Asisten konsultasi audit 24/7"
+  },
+  {
+    id: "iso19011-link",
+    name: "Salin Link ISO 19011 Asisten",
+    url: "https://chatgpt.com/g/g-68ad79e7c7188191b74ccd8782faa2a6-iso-19011-audit-assistant",
+    category: "AI Panduan",
+    note: "AI Panduan pedoman audit ISO 19011:2018 Edisi 2026"
   },
   {
     id: "gpt-ceklist-link",

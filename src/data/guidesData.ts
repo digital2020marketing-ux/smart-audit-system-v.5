@@ -77,19 +77,19 @@ export const PRODUCT_GUIDES: ProductGuide[] = [
   },
   {
     id: "guide-ami-gpt",
-    title: "Panduan AI Asisten AMI-GPT",
+    title: "Panduan AI Asisten AMI-GPT (Versi 2026)",
     category: "AI Asisten 24/7",
-    badge: "Smart Consultant",
-    summary: "Cara memanfaatkan asisten cerdas AI AMI-GPT untuk konsultasi audit mutu internal dan regulasi ISO secara real-time.",
+    badge: "Smart Consultant 2026",
+    summary: "Cara memanfaatkan asisten cerdas AI AMI-GPT (Edisi Mutakhir 2026) untuk konsultasi audit mutu internal dan regulasi ISO secara real-time.",
     steps: [
       "Buka AI Asisten AMI-GPT melalui menu AI Tools atau tombol pintasan.",
-      "Tanyakan keraguan Anda seputar penafsiran klausul ISO 9001:2015, contoh klausul 9.2 atau 10.2.",
-      "Minta contoh pertanyaan audit untuk proses khusus (misal: proses pengadaan, QC, kalibrasi, atau HRD).",
-      "Gunakan untuk menguji apakah suatu temuan masuk kategori Mayor, Minor, atau Observasi."
+      "Tanyakan keraguan Anda seputar penafsiran klausul ISO 9001:2015 dan ISO 19011:2026 (contoh: klausul 9.2, 10.2, atau manajemen program audit).",
+      "Minta contoh pertanyaan audit untuk proses khusus (misal: proses pengadaan, QC, kalibrasi, IT, atau HRD).",
+      "Gunakan untuk menguji apakah suatu temuan masuk kategori Mayor, Minor, atau Observasi berbasis risiko."
     ],
     tips: [
-      "AI siap sedia 24 jam sehari 7 hari seminggu mendampingi belajar Anda.",
-      "Beri konteks situasi yang jelas untuk mendapatkan saran audit yang paling spesifik."
+      "AI siap sedia 24 jam sehari 7 hari seminggu mendampingi belajar dan operasional audit Anda.",
+      "Beri konteks situasi yang jelas untuk mendapatkan saran audit yang paling spesifik dan terstandar."
     ]
   },
   {
@@ -123,7 +123,7 @@ export const PRODUCT_GUIDES: ProductGuide[] = [
     ],
     tips: [
       "Gunakan tool 'Menulis Temuan Audit – Metoda PLOR' untuk menyusun format ini secara otomatis.",
-      "Rekomendasi penggunaan: Buka generator PLOR melalui Laptop/PC agar tampilan form optimal."
+      "Pastikan bukti objektif (O) memiliki data terukur atau nomor dokumen fisik yang dapat diverifikasi."
     ]
   },
   {
@@ -141,6 +141,23 @@ export const PRODUCT_GUIDES: ProductGuide[] = [
     tips: [
       "Matriks analisis CAPA dirancang terintegrasi dengan Klausul 10.2 ISO 9001:2015.",
       "Sebaiknya gunakan perangkat Laptop atau PC saat menyusun matriks CAPA."
+    ]
+  },
+  {
+    id: "guide-iso-19011",
+    title: "Panduan ISO 19011 Audit Asisten AI (2026)",
+    category: "AI Panduan ISO 19011",
+    badge: "ISO 19011:2018 Edition 2026",
+    summary: "Panduan lengkap pengoperasian ISO 19011 Audit Assistant untuk memandu program audit, 7 prinsip audit, sampling audit berbasis risiko, dan simulasi evaluasi auditor.",
+    steps: [
+      "Buka ISO 19011 Audit Asisten AI melalui menu AI Tools atau link yang tersedia.",
+      "Konsultasikan 7 Prinsip Audit Sistem Manajemen: Integritas, Penyajian yang Wajar, Kemahiran Profesional, Kerahasiaan, Independensi, Pendekatan Berbasis Bukti, dan Pendekatan Berbasis Risiko.",
+      "Minta rekomendasi perancangan Program Audit (Klausul 5) dan mitigasi risiko audit spesifik di unit kerja Anda.",
+      "Gunakan AI untuk menentukan metode Sampling Audit (Statistical vs Judgemental Sampling) dan panduan pelaksanaan Remote / Hybrid Audit terkini."
+    ],
+    tips: [
+      "AI ini mengintegrasikan seluruh klausul ISO 19011:2018 dengan update praktik audit modern 2026.",
+      "Gunakan untuk konsultasi persiapan audit sebelum menyusun jadwal audit tahunan."
     ]
   }
 ];

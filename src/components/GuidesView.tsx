@@ -12,7 +12,8 @@ import {
   HelpCircle, 
   ExternalLink,
   ChevronRight,
-  ShieldCheck
+  ShieldCheck,
+  Compass
 } from 'lucide-react';
 
 export const GuidesView: React.FC = () => {
@@ -26,6 +27,8 @@ export const GuidesView: React.FC = () => {
         return <BookOpen className="w-5 h-5" />;
       case 'guide-ami-gpt':
         return <Bot className="w-5 h-5" />;
+      case 'guide-iso-19011':
+        return <Compass className="w-5 h-5" />;
       case 'guide-checklist-simulasi':
         return <Sparkles className="w-5 h-5" />;
       case 'guide-plor':
@@ -48,14 +51,14 @@ export const GuidesView: React.FC = () => {
                 Dokumentasi &amp; Standardisasi
               </span>
               <span className="text-[11px] text-slate-500 font-mono">
-                5 Panduan Produk &amp; Metodologi
+                {PRODUCT_GUIDES.length} Panduan Produk &amp; Metodologi
               </span>
             </div>
             <h1 className="text-lg sm:text-xl font-extrabold text-slate-900 mt-1">
               Panduan Praktis Produk &amp; Metoda Audit
             </h1>
             <p className="text-xs text-slate-600 mt-0.5 max-w-2xl leading-relaxed">
-              Pelajari metodologi standar operasional pengoperasian modul, asisten cerdas AI, teknik penulisan temuan PLOR, dan formulasi tindakan korektif CAPA.
+              Pelajari metodologi standar operasional pengoperasian modul, asisten cerdas AI &amp; Panduan ISO 19011, teknik penulisan temuan PLOR, dan formulasi tindakan korektif CAPA.
             </p>
           </div>
         </div>
@@ -146,12 +149,12 @@ export const GuidesView: React.FC = () => {
           </div>
         </div>
 
-        {/* Right 1 Col: Quick Reference Cards for all 5 Guides */}
+        {/* Right 1 Col: Quick Reference Cards for all Guides */}
         <div className="space-y-3.5">
           <div className="bg-white rounded-2xl p-4 border border-slate-200 shadow-2xs space-y-3">
             <h3 className="text-xs font-bold text-slate-900 border-b border-slate-100 pb-2 flex items-center space-x-1.5">
               <Layers className="w-3.5 h-3.5 text-amber-600" />
-              <span>Daftar 5 Panduan Produk:</span>
+              <span>Daftar {PRODUCT_GUIDES.length} Panduan Produk:</span>
             </h3>
 
             <div className="space-y-1.5">
