@@ -48,8 +48,7 @@ https://chatgpt.com/g/g-6955fcd4ee0481918fbcce983e93f41c-ai-asisten-ami
 https://chatgpt.com/g/g-69e7746d65a881919c84f57152956d22-daftar-periksa-dan-simulasi-audit
 
 3. Menulis Temuan Audit - Metoda PLOR:
-https://aistudio.google.com/apps/8176939f-fb28-49da-a6e0-5d2fb150e45f?fullscreenApplet=true&showAssistant=true&showPreview=true
-(Catatan: Disarankan via Laptop/PC)
+https://chatgpt.com/g/g-69834ccf134c819189ab8e0860a404b8-generator-temuan-audit-metoda-plor
 
 4. Menulis Tindakan Perbaikan - CAPA:
 https://aistudio.google.com/apps/ab6c7ca2-9bf9-439b-995a-36057740cb2c?showAssistant=true&showPreview=true&fullscreenApplet=true

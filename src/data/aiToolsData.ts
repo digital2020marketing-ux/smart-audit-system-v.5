@@ -22,8 +22,8 @@ export const AI_TOOLS_DATA: AIToolItem[] = [
   {
     id: "plor-generator",
     name: "Menulis Temuan Audit – Metoda PLOR",
-    platform: "External AI Tool",
-    badge: "Workbook AI – PLOR Generator",
+    platform: "External GPT",
+    badge: "AI PLOR Generator",
     iconColor: "amber",
     description: "Alat bantu menyusun temuan audit mutu internal secara sistematis, objektif, dan terstandarisasi berdasarkan formula PLOR dan klausul ISO 9001:2015.",
     functions: [
@@ -32,8 +32,8 @@ export const AI_TOOLS_DATA: AIToolItem[] = [
       "Merumuskan Objective Evidence (Fakta & bukti fisik yang tidak terbantahkan)",
       "Memetakan Reference (Klausul ISO 9001:2015 / Dokumen SOP terkait)"
     ],
-    url: "https://aistudio.google.com/apps/8176939f-fb28-49da-a6e0-5d2fb150e45f?fullscreenApplet=true&showAssistant=true&showPreview=true",
-    requiresDesktop: true
+    url: "https://chatgpt.com/g/g-69834ccf134c819189ab8e0860a404b8-generator-temuan-audit-metoda-plor",
+    requiresDesktop: false
   },
   {
     id: "capa-generator",
@@ -95,9 +95,9 @@ export const OFFLINE_COPY_LINKS: CopyLinkItem[] = [
   {
     id: "plor-link",
     name: "Salin Link PLOR",
-    url: "https://aistudio.google.com/apps/8176939f-fb28-49da-a6e0-5d2fb150e45f?fullscreenApplet=true&showAssistant=true&showPreview=true",
+    url: "https://chatgpt.com/g/g-69834ccf134c819189ab8e0860a404b8-generator-temuan-audit-metoda-plor",
     category: "AI Generate",
-    note: "Rekomendasi gunakan Laptop/PC"
+    note: "Generator formulasi temuan PLOR"
   },
   {
     id: "capa-link",
