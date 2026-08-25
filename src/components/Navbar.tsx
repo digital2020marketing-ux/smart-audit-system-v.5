@@ -144,23 +144,14 @@ export const Navbar: React.FC<NavbarProps> = ({
                 </button>
               )}
 
-              {/* Access Dashboard CTA */}
-              {currentView === 'landing' ? (
+              {/* Access Dashboard CTA on landing */}
+              {currentView === 'landing' && (
                 <button
                   onClick={() => handleNavClick('dashboard')}
                   className="bg-amber-500 hover:bg-amber-400 text-slate-950 font-extrabold px-3 py-1.5 rounded-lg text-xs shadow-sm transition flex items-center space-x-1"
                 >
                   <span>Mulai Akses</span>
                   <ChevronRight className="w-3.5 h-3.5" />
-                </button>
-              ) : (
-                <button
-                  onClick={() => handleNavClick('dashboard')}
-                  className="hidden sm:flex items-center space-x-1 bg-slate-800 hover:bg-slate-700 text-slate-200 px-2.5 py-1.5 rounded-lg text-xs font-bold border border-slate-700 transition"
-                  title="Kembali ke Dashboard Utama"
-                >
-                  <LayoutDashboard className="w-3 h-3 text-amber-400" />
-                  <span className="text-[11px]">Dashboard</span>
                 </button>
               )}
 

@@ -162,20 +162,23 @@ export const PRODUCT_GUIDES: ProductGuide[] = [
   },
   {
     id: "guide-access-terms",
-    title: "Ketentuan Hak Akses & Lisensi SMART Audit SYSTEM",
-    category: "Ketentuan Hak Akses",
-    badge: "Lisensi 1 Pengguna",
-    summary: "Ketentuan hak akses personal, akad pembelian, amanah penggunaan, dan batasan lisensi SMART Audit SYSTEM.",
+    title: "Pengumuman Lisensi Personal & Akad Penggunaan SMART Audit SYSTEM",
+    category: "Ketentuan Hak Akses & Lisensi",
+    badge: "1 Lisensi = 1 Pengguna",
+    summary: "Aturan lisensi personal, ketentuan kelas/pelatihan, lisensi instansi/perusahaan, serta dasar akad, amanah (QS. Al-Anfal: 27 & QS. Ali ‘Imran: 5), dan keberkahan.",
     steps: [
-      "Hak akses SMART Audit SYSTEM diberikan untuk 1 (satu) orang pengguna/personal dan hanya diperuntukkan bagi penggunaan pribadi pemilik akun.",
-      "Hak akses tidak diperbolehkan untuk dibagikan (share) kepada orang lain.",
-      "Akun, link akses, file, maupun materi di dalam sistem tidak diperbolehkan untuk dijual atau diperjualbelikan kembali.",
-      "Pengguna tidak diperkenankan menggandakan atau mendistribusikan isi SMART Audit SYSTEM untuk kepentingan komersial tanpa izin.",
-      "Lisensi yang diperoleh merupakan hak penggunaan pribadi, bukan perpindahan hak kepemilikan atas produk dan materi."
+      "Hak akses SMART Audit SYSTEM diberikan kepada 1 (satu) orang pengguna/personal dan hanya diperuntukkan bagi pemilik lisensi yang terdaftar.",
+      "Hak akses tidak diperbolehkan untuk dibagikan (share) kepada teman, kolega, rekan kerja, siswa, peserta pelatihan, atau pihak lainnya.",
+      "Akun, link akses, file, maupun materi di dalam SMART Audit SYSTEM tidak diperbolehkan untuk dijual, dipindahtangankan, atau diperjualbelikan kembali.",
+      "Pengguna tidak diperkenankan menggandakan, menyebarluaskan, atau mendistribusikan isi SMART Audit SYSTEM kepada pihak lain tanpa izin dari pemilik produk.",
+      "Lisensi yang diberikan merupakan hak penggunaan personal, bukan perpindahan hak kepemilikan atas sistem, materi, maupun konten yang terdapat di dalamnya.",
+      "Ketentuan Pelatihan/Workshop: Setiap peserta wajib memiliki lisensi masing-masing (1 peserta = 1 lisensi). Trainer/instruktur tidak diperkenankan membagikan akses miliknya secara cuma-cuma kepada peserta.",
+      "Lisensi Instansi/Perusahaan/Penyelenggara: Hubungi Admin via WhatsApp untuk pembelian multi-lisensi dengan harga khusus/diskon. Setiap pembelian dengan jumlah tertentu akan diberikan kode kupon sesuai dengan jumlah lisensi yang didaftarkan. Prinsip lisensi tetap: 1 LISENSI = 1 ORANG PENGGUNA."
     ],
     tips: [
-      "Ketentuan ini menjadi bagian dari akad pembelian dan penggunaan SMART Audit SYSTEM.",
-      "Semoga setiap ilmu, alat, dan manfaat yang diperoleh dari SMART Audit SYSTEM menjadi jalan kemudahan serta membawa keberkahan bagi kita semua. Aamiin."
+      "QS. Al-Anfal: 27 — “Wahai orang-orang yang beriman! Janganlah kamu mengkhianati Allah dan Rasul dan (juga) janganlah kamu mengkhianati amanat yang dipercayakan kepadamu, sedang kamu mengetahui.”",
+      "QS. Ali ‘Imran: 5 — “Sesungguhnya bagi Allah tidak ada sesuatu pun yang tersembunyi di bumi dan tidak pula di langit.”",
+      "Mari menjaga amanah: 1 Lisensi untuk 1 Orang Pengguna. Semoga setiap ilmu, alat, dan manfaat yang diperoleh melalui SMART Audit SYSTEM membawa keberkahan. Aamiin."
     ]
   }
 ];

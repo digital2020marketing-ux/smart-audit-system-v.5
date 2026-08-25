@@ -19,7 +19,9 @@ import {
   FileCheck2,
   ListOrdered,
   Zap,
-  HelpCircle
+  HelpCircle,
+  Building2,
+  MessageSquare
 } from 'lucide-react';
 
 interface LandingPageProps {
@@ -156,62 +158,171 @@ export const LandingPage: React.FC<LandingPageProps> = ({
         </div>
       </section>
 
-      {/* Ketentuan Hak Akses SMART Audit SYSTEM - Section Awal */}
-      <section className="bg-gradient-to-br from-amber-50/90 via-stone-50 to-amber-50/50 rounded-2xl p-4 sm:p-6 border-2 border-amber-300/80 shadow-xs space-y-4">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-amber-200/70 pb-3">
+      {/* PENGUMUMAN LISENSI PERSONAL & AKAD PENGGUNAAN SMART Audit SYSTEM */}
+      <section className="bg-gradient-to-br from-amber-50/95 via-stone-50 to-amber-50/70 rounded-2xl p-4 sm:p-6 border-2 border-amber-300 shadow-xs space-y-4">
+        {/* Header Pengumuman */}
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-amber-200/80 pb-3">
           <div className="flex items-center space-x-2.5">
-            <div className="w-8 h-8 rounded-xl bg-amber-500 text-slate-950 flex items-center justify-center shadow-2xs font-bold shrink-0">
+            <div className="w-9 h-9 rounded-xl bg-amber-500 text-slate-950 flex items-center justify-center shadow-2xs font-bold shrink-0">
               <ShieldCheck className="w-5 h-5" />
             </div>
             <div>
-              <span className="text-[10px] font-extrabold uppercase tracking-wider text-amber-900 bg-amber-200/80 px-2 py-0.5 rounded">
-                Lisensi Personal &amp; Akad Penggunaan
+              <span className="text-[10px] font-extrabold uppercase tracking-wider text-amber-900 bg-amber-200/90 px-2 py-0.5 rounded font-mono">
+                PENGUMUMAN RESMI
               </span>
               <h2 className="text-base sm:text-lg font-black text-slate-900 mt-0.5">
-                Ketentuan Hak Akses SMART Audit SYSTEM
+                LISENSI PERSONAL &amp; AKAD PENGGUNAAN SMART Audit SYSTEM
               </h2>
             </div>
           </div>
-          <span className="text-[11px] font-mono font-bold text-amber-800 bg-white px-2.5 py-1 rounded-lg border border-amber-200 w-fit">
-            1 Lisensi = 1 Orang Pengguna
+          <span className="text-xs font-mono font-black text-amber-950 bg-amber-200/80 px-3 py-1.5 rounded-lg border border-amber-300/80 w-fit">
+            1 LISENSI = 1 ORANG PENGGUNA
           </span>
         </div>
 
-        <div className="space-y-3 text-xs sm:text-sm text-slate-800 leading-relaxed">
-          <p className="font-medium text-slate-900 bg-white/80 p-3 rounded-xl border border-amber-200/60">
-            Hak akses <strong>SMART Audit SYSTEM</strong> diberikan untuk <strong>1 (satu) orang pengguna/personal</strong> dan hanya diperuntukkan bagi penggunaan pribadi pemilik akun.
+        <div className="space-y-4 text-xs sm:text-sm text-slate-800 leading-relaxed">
+          {/* Paragraf Utama */}
+          <p className="font-semibold text-slate-900 bg-white/90 p-3.5 rounded-xl border border-amber-200/70 shadow-2xs">
+            Hak akses <strong>SMART Audit SYSTEM</strong> diberikan kepada <strong>1 (satu) orang pengguna/personal</strong> dan hanya diperuntukkan bagi pemilik lisensi yang terdaftar.
           </p>
 
-          <div className="space-y-2">
-            <p className="font-semibold text-slate-900">
-              Dengan melakukan pembelian, pengguna memahami dan menyepakati bahwa:
-            </p>
-            <ul className="space-y-2 pl-1">
+          <p className="text-xs text-slate-700">
+            Dengan melakukan pembelian dan menggunakan SMART Audit SYSTEM, pengguna dianggap telah memahami dan menyepakati ketentuan penggunaan berikut:
+          </p>
+
+          {/* 1. Ketentuan Hak Akses */}
+          <div className="bg-white/95 rounded-xl p-4 border border-amber-200/80 space-y-2.5 shadow-2xs">
+            <h3 className="font-extrabold text-xs sm:text-sm text-slate-900 flex items-center space-x-2">
+              <span className="w-2 h-2 rounded-full bg-amber-500"></span>
+              <span>Ketentuan Hak Akses</span>
+            </h3>
+            <ul className="space-y-2 pl-1 text-xs text-slate-700">
               <li className="flex items-start space-x-2.5">
                 <span className="w-4 h-4 rounded-full bg-amber-200 text-amber-900 flex items-center justify-center text-[10px] font-bold shrink-0 mt-0.5">✓</span>
-                <span>Hak akses <strong>tidak diperbolehkan untuk dibagikan (share)</strong> kepada orang lain.</span>
+                <span>Hak akses <strong>tidak diperbolehkan untuk dibagikan (share)</strong> kepada teman, kolega, rekan kerja, siswa, peserta pelatihan, atau pihak lainnya.</span>
               </li>
               <li className="flex items-start space-x-2.5">
                 <span className="w-4 h-4 rounded-full bg-amber-200 text-amber-900 flex items-center justify-center text-[10px] font-bold shrink-0 mt-0.5">✓</span>
-                <span>Akun, link akses, file, maupun materi di dalam sistem <strong>tidak diperbolehkan untuk dijual atau diperjualbelikan kembali</strong>.</span>
+                <span>Akun, link akses, file, maupun materi di dalam SMART Audit SYSTEM <strong>tidak diperbolehkan untuk dijual, dipindahtangankan, atau diperjualbelikan kembali</strong>.</span>
               </li>
               <li className="flex items-start space-x-2.5">
                 <span className="w-4 h-4 rounded-full bg-amber-200 text-amber-900 flex items-center justify-center text-[10px] font-bold shrink-0 mt-0.5">✓</span>
-                <span>Pengguna tidak diperkenankan menggandakan atau mendistribusikan isi SMART Audit SYSTEM untuk kepentingan komersial tanpa izin.</span>
+                <span>Pengguna <strong>tidak diperkenankan menggandakan, menyebarluaskan, atau mendistribusikan</strong> isi SMART Audit SYSTEM kepada pihak lain tanpa izin dari pemilik produk.</span>
               </li>
               <li className="flex items-start space-x-2.5">
                 <span className="w-4 h-4 rounded-full bg-amber-200 text-amber-900 flex items-center justify-center text-[10px] font-bold shrink-0 mt-0.5">✓</span>
-                <span>Lisensi yang diperoleh merupakan <strong>hak penggunaan pribadi</strong>, bukan perpindahan hak kepemilikan atas produk dan materi.</span>
+                <span>Lisensi yang diberikan merupakan <strong>hak penggunaan personal</strong>, bukan perpindahan hak kepemilikan atas sistem, materi, maupun konten yang terdapat di dalamnya.</span>
               </li>
             </ul>
           </div>
 
-          <p className="text-xs text-slate-700 pt-1">
-            Ketentuan ini menjadi bagian dari <strong>akad pembelian dan penggunaan SMART Audit SYSTEM</strong>. Kami berharap transaksi ini dijalankan dengan saling menjaga amanah, menghormati hak masing-masing, dan memberikan manfaat bagi pengguna.
-          </p>
+          {/* 2. Ketentuan untuk Pelatihan, Workshop, dan Kelas */}
+          <div className="bg-white/95 rounded-xl p-4 border border-amber-200/80 space-y-2.5 shadow-2xs">
+            <h3 className="font-extrabold text-xs sm:text-sm text-slate-900 flex items-center space-x-2">
+              <span className="w-2 h-2 rounded-full bg-amber-500"></span>
+              <span>Ketentuan untuk Pelatihan, Workshop, dan Kelas</span>
+            </h3>
+            <p className="text-xs text-slate-700">
+              Apabila SMART Audit SYSTEM digunakan sebagai bagian dari pelatihan, workshop, kelas, pendampingan, atau kegiatan pembelajaran, maka:
+            </p>
+            <div className="bg-amber-50/80 p-3 rounded-lg border border-amber-200/70 text-xs font-semibold text-amber-950">
+              Setiap peserta yang akan menggunakan SMART Audit SYSTEM wajib memiliki lisensi masing-masing.
+              <div className="mt-1 text-xs font-black text-amber-900">Artinya: 1 peserta = 1 lisensi.</div>
+            </div>
+            <ul className="space-y-2 pl-1 text-xs text-slate-700">
+              <li className="flex items-start space-x-2.5">
+                <span className="w-4 h-4 rounded-full bg-amber-200 text-amber-900 flex items-center justify-center text-[10px] font-bold shrink-0 mt-0.5">•</span>
+                <span>Trainer, konsultan, guru, dosen, mentor, atau instruktur yang telah memiliki lisensi <strong>tidak diperkenankan membagikan akses miliknya secara cuma-cuma</strong> kepada peserta, siswa, atau murid.</span>
+              </li>
+              <li className="flex items-start space-x-2.5">
+                <span className="w-4 h-4 rounded-full bg-amber-200 text-amber-900 flex items-center justify-center text-[10px] font-bold shrink-0 mt-0.5">•</span>
+                <span>Lisensi milik pengajar <strong>hanya berlaku untuk pengajar tersebut</strong> dan tidak otomatis memberikan hak akses kepada peserta pelatihan.</span>
+              </li>
+              <li className="flex items-start space-x-2.5">
+                <span className="w-4 h-4 rounded-full bg-amber-200 text-amber-900 flex items-center justify-center text-[10px] font-bold shrink-0 mt-0.5">•</span>
+                <span>Peserta yang membutuhkan akses <strong>wajib memperoleh lisensi secara resmi</strong> dari pemilik SMART Audit SYSTEM atau pihak yang mendapatkan izin resmi dari pemilik produk.</span>
+              </li>
+            </ul>
+          </div>
 
-          <div className="bg-amber-100/80 rounded-xl p-3 border border-amber-300 text-amber-950 text-xs font-semibold text-center sm:text-left leading-relaxed">
-            Semoga setiap ilmu, alat, dan manfaat yang diperoleh dari SMART Audit SYSTEM menjadi jalan kemudahan serta membawa keberkahan bagi kita semua. Aamiin.
+          {/* 3. Lisensi untuk Instansi, Perusahaan, dan Penyelenggara Pelatihan */}
+          <div className="bg-white/95 rounded-xl p-4 border border-amber-300 shadow-2xs space-y-2.5">
+            <div className="flex items-center space-x-2 text-slate-900">
+              <Building2 className="w-4 h-4 text-amber-600" />
+              <h3 className="font-extrabold text-xs sm:text-sm text-slate-900">
+                Lisensi untuk Instansi, Perusahaan, dan Penyelenggara Pelatihan
+              </h3>
+            </div>
+            <p className="text-xs text-slate-700 leading-relaxed">
+              Apabila instansi, perusahaan, lembaga, organisasi, sekolah, kampus, konsultan, atau penyelenggara pelatihan membutuhkan SMART Audit SYSTEM untuk beberapa orang, silakan menghubungi Admin melalui WhatsApp.
+            </p>
+            <p className="text-xs text-slate-700 leading-relaxed">
+              Tersedia harga khusus/diskon pembelian beberapa lisensi yang disesuaikan dengan jumlah pengguna atau peserta yang akan didaftarkan. Setiap pembelian dengan jumlah tertentu akan diberikan kode kupon sesuai dengan jumlah lisensi yang didaftarkan.
+            </p>
+            <div className="p-3 bg-amber-50 rounded-lg border border-amber-200 text-xs text-amber-950 space-y-1">
+              <div className="font-bold">Meskipun pembelian dilakukan secara kolektif, prinsip lisensinya tetap:</div>
+              <div className="font-black text-amber-900 tracking-wide text-xs sm:text-sm">1 LISENSI = 1 ORANG PENGGUNA</div>
+              <div className="text-slate-700 text-[11px] pt-0.5">Setiap pengguna akan memperoleh hak penggunaan dan aktivasi melalui kode kupon personal sesuai jumlah lisensi yang didaftarkan.</div>
+            </div>
+            <div className="pt-1">
+              <a
+                href="https://api.whatsapp.com/send?text=Halo%20Admin,%20saya%20ingin%20berkonsultasi%20mengenai%20pembelian%20beberapa%20lisensi%20SMART%20Audit%20SYSTEM%20untuk%20instansi/perusahaan/pelatihan."
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center space-x-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-3.5 py-2 rounded-xl text-xs shadow-2xs transition"
+              >
+                <MessageSquare className="w-3.5 h-3.5" />
+                <span>Hubungi Admin untuk Pembelian Beberapa Lisensi</span>
+                <ExternalLink className="w-3 h-3 ml-1" />
+              </a>
+            </div>
+          </div>
+
+          {/* 4. Akad, Amanah, dan Keberkahan */}
+          <div className="bg-white/95 rounded-xl p-4 border border-amber-300/90 shadow-2xs space-y-3">
+            <h3 className="font-extrabold text-xs sm:text-sm text-slate-900 flex items-center space-x-2">
+              <span className="w-2 h-2 rounded-full bg-amber-600"></span>
+              <span>Akad, Amanah, dan Keberkahan</span>
+            </h3>
+            <p className="text-xs text-slate-700 leading-relaxed">
+              Ketentuan ini bukan hanya mengenai aturan penggunaan produk, tetapi merupakan bagian dari akad pembelian dan amanah antara pemilik produk dengan pengguna SMART Audit SYSTEM.
+            </p>
+
+            <div className="bg-amber-50/90 border-l-4 border-amber-500 p-3 rounded-r-lg space-y-1 text-xs text-slate-800 italic">
+              <p className="font-semibold text-slate-900 not-italic">Allah SWT berfirman:</p>
+              <p>“Wahai orang-orang yang beriman! Janganlah kamu mengkhianati Allah dan Rasul dan (juga) janganlah kamu mengkhianati amanat yang dipercayakan kepadamu, sedang kamu mengetahui.”</p>
+              <p className="font-bold text-amber-900 not-italic text-[11px]">— QS. Al-Anfal: 27</p>
+            </div>
+
+            <p className="text-xs text-slate-700 leading-relaxed">
+              Pemilik SMART Audit SYSTEM mungkin tidak dapat mengetahui setiap kali sebuah akun, link, atau akses dibagikan kepada pihak lain. Namun sebagai seorang muslim, kita meyakini bahwa tidak ada sesuatu pun yang tersembunyi dari Allah SWT.
+            </p>
+
+            <div className="bg-amber-50/90 border-l-4 border-amber-500 p-3 rounded-r-lg space-y-1 text-xs text-slate-800 italic">
+              <p>“Sesungguhnya bagi Allah tidak ada sesuatu pun yang tersembunyi di bumi dan tidak pula di langit.”</p>
+              <p className="font-bold text-amber-900 not-italic text-[11px]">— QS. Ali ‘Imran: 5</p>
+            </div>
+
+            <p className="text-xs text-slate-700 leading-relaxed">
+              Karena itu, mari kita sama-sama menjaga akad, amanah, dan hak masing-masing.
+            </p>
+
+            <p className="text-xs text-slate-700 leading-relaxed">
+              Gunakanlah SMART Audit SYSTEM sesuai dengan lisensi yang telah diberikan. Apabila orang lain membutuhkan akses, arahkan untuk memperoleh lisensinya secara resmi.
+            </p>
+
+            <p className="text-xs text-slate-700 leading-relaxed">
+              Kami tidak bermaksud mempersulit pengguna, tetapi ingin menjaga hak atas karya, keberlangsungan pengembangan sistem, serta keberkahan dalam setiap transaksi dan pemanfaatan ilmu.
+            </p>
+
+            <div className="font-bold text-xs text-amber-950 bg-amber-100/80 px-3 py-2 rounded-lg border border-amber-300 text-center">
+              Mari menjaga amanah: 1 Lisensi untuk 1 Orang Pengguna.
+            </div>
+          </div>
+
+          {/* Doa Penutup */}
+          <div className="bg-gradient-to-r from-amber-100 via-amber-50 to-amber-100 rounded-xl p-3.5 border border-amber-300 text-amber-950 text-xs font-semibold text-center sm:text-left leading-relaxed shadow-2xs">
+            Semoga setiap ilmu, alat, dan manfaat yang diperoleh melalui SMART Audit SYSTEM menjadi jalan kemudahan dalam pekerjaan, menjadi ilmu yang bermanfaat, serta membawa keberkahan bagi pengguna maupun pengembangnya. Aamiin.
           </div>
         </div>
       </section>
