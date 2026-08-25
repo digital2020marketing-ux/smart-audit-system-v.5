@@ -35,6 +35,8 @@ export const GuidesView: React.FC = () => {
         return <FileSignature className="w-5 h-5" />;
       case 'guide-capa':
         return <FileCheck2 className="w-5 h-5" />;
+      case 'guide-access-terms':
+        return <ShieldCheck className="w-5 h-5" />;
       default:
         return <Layers className="w-5 h-5" />;
     }

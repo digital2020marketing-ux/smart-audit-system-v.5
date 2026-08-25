@@ -147,7 +147,7 @@ export const PRODUCT_GUIDES: ProductGuide[] = [
     id: "guide-iso-19011",
     title: "Panduan ISO 19011 Audit Asisten AI (2026)",
     category: "AI Panduan ISO 19011",
-    badge: "ISO 19011:2018 Edition 2026",
+    badge: "ISO 19011:2026",
     summary: "Panduan lengkap pengoperasian ISO 19011 Audit Assistant untuk memandu program audit, 7 prinsip audit, sampling audit berbasis risiko, dan simulasi evaluasi auditor.",
     steps: [
       "Buka ISO 19011 Audit Asisten AI melalui menu AI Tools atau link yang tersedia.",
@@ -156,8 +156,26 @@ export const PRODUCT_GUIDES: ProductGuide[] = [
       "Gunakan AI untuk menentukan metode Sampling Audit (Statistical vs Judgemental Sampling) dan panduan pelaksanaan Remote / Hybrid Audit terkini."
     ],
     tips: [
-      "AI ini mengintegrasikan seluruh klausul ISO 19011:2018 dengan update praktik audit modern 2026.",
+      "AI ini mengintegrasikan seluruh klausul ISO 19011 dengan update praktik audit modern 2026.",
       "Gunakan untuk konsultasi persiapan audit sebelum menyusun jadwal audit tahunan."
+    ]
+  },
+  {
+    id: "guide-access-terms",
+    title: "Ketentuan Hak Akses & Lisensi SMART Audit SYSTEM",
+    category: "Ketentuan Hak Akses",
+    badge: "Lisensi 1 Pengguna",
+    summary: "Ketentuan hak akses personal, akad pembelian, amanah penggunaan, dan batasan lisensi SMART Audit SYSTEM.",
+    steps: [
+      "Hak akses SMART Audit SYSTEM diberikan untuk 1 (satu) orang pengguna/personal dan hanya diperuntukkan bagi penggunaan pribadi pemilik akun.",
+      "Hak akses tidak diperbolehkan untuk dibagikan (share) kepada orang lain.",
+      "Akun, link akses, file, maupun materi di dalam sistem tidak diperbolehkan untuk dijual atau diperjualbelikan kembali.",
+      "Pengguna tidak diperkenankan menggandakan atau mendistribusikan isi SMART Audit SYSTEM untuk kepentingan komersial tanpa izin.",
+      "Lisensi yang diperoleh merupakan hak penggunaan pribadi, bukan perpindahan hak kepemilikan atas produk dan materi."
+    ],
+    tips: [
+      "Ketentuan ini menjadi bagian dari akad pembelian dan penggunaan SMART Audit SYSTEM.",
+      "Semoga setiap ilmu, alat, dan manfaat yang diperoleh dari SMART Audit SYSTEM menjadi jalan kemudahan serta membawa keberkahan bagi kita semua. Aamiin."
     ]
   }
 ];
